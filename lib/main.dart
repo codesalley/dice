@@ -22,8 +22,8 @@ class DicePage extends StatefulWidget {
 }
 
 class _DicePageState extends State<DicePage> {
-  int numOne;
-  int numTwo;
+  int numOne = 0;
+  int numTwo = 0;
 
   void generate() {
     numOne = Random().nextInt(5);
